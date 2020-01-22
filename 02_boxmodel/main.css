@@ -1,0 +1,38 @@
+/* selector global para comprobar */
+
+/* * {
+    background-color: red;
+} */
+
+
+/* selector de etiqueta */
+
+h1 {
+    font-size: 70px;
+    color: green;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    color: blue;
+    text-align: justify;
+}
+
+/* selector de clase */
+
+.parrafoVerde {
+    font-size: 25px;
+    color: green;
+    text-align: right;
+}
+
+.letrasPequeñas {
+    font-size: 15px;
+}
+
+.boldFont {
+    font-weight: bold;
+    color: red;
+    font-size: 45px;
+}
