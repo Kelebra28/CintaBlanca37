@@ -1,0 +1,71 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.azul{
+    height: 100%;
+    width: 100%;
+    /* border: solid 5px blue; */
+    background-color: rgb(18, 18, 134);
+    display: flex;
+}
+.izquierda{
+    height: 100%;
+    width: 30%;
+    /* border: solid 5px blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.derecha{
+    height: 100%;
+    width: 70%;
+    /* border: solid  gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.blancoSuperior{
+    height: 40%;
+    width: 90%;
+    /* border: solid 5px green; */
+
+}
+.blancoInferior{
+    height: 40%;
+    width: 90%;
+    /* border: solid 5px palevioletred; */
+    display: flex;
+    align-items: flex-end;
+}
+.rojo{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    /* border: 2px solid red; */
+}
+.derechaSuperior{
+    height: 40%;
+    width: 90%;
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+.derechaInferior{
+    height: 40%;
+    width: 90%;
+    /* border: 5px solid rgb(0, 70, 128); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.blancoSuperior,.blancoInferior, .derechaSuperior,.derechaInferior{
+    background-color: white;
+}
