@@ -1,0 +1,19 @@
+.principal {
+  height: 20em;
+  background-color: palegoldenrod;
+}
+
+.fila {
+  height: 33.3%;
+}
+
+.btn-size {
+  width: 20%;
+  height: 60%;
+  font-size: 2em;
+}
+
+.link {
+  text-decoration: none !important;
+  color: white;
+}
